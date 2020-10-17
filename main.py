@@ -3,7 +3,7 @@ import streamlit as st
 
 def main():
 
-	st.title('Intelligent Height Measure')
+	st.title('Smart Height Measurement Machine')
 	st.text('This tool uses advanced technology to measure your height based on a few simple questions')
 	st.text_input('What is your zip code', value='90210')
 	height = st.text_input('How tall are you in inches?', value='60')
