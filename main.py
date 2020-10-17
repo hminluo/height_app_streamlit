@@ -10,7 +10,7 @@ def main():
 	
 
 	if st.button('Measure Me'):
-		st.text('You are '+ height + ' inches tall')
+		st.text('You are '+ height + ' inches tall. That is about '+ height/7 + ' bananas long!')
 		st.text('Not satisfied with your result?')
 		st.text('Please make sure the information you provided is accurate, and try again!')
 
